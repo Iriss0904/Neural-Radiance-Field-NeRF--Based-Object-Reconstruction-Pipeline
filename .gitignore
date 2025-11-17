@@ -1,0 +1,39 @@
+# ============================
+# Ignore data & generated assets
+# ============================
+transforms_train.json_rgba_slices/
+render_frames_pbr/
+render_frames/
+transforms_train.json_volume_raw/
+test/
+train/
+val/
+
+# Ignore large media files (videos, renders)
+lego_turntable_pbr.mp4
+
+# ============================
+# Python cache / temp files
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================
+# Virtual environments
+# ============================
+venv/
+.env/
+*.env
+
+# ============================
+# VS Code workspace settings
+# ============================
+.vscode/
+
+# ============================
+# General ignore patterns
+# ============================
+*.log
+*.tmp
